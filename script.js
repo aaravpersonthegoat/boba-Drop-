@@ -10,3 +10,11 @@ btn.addEventListener('click', () => {
         btn.textContent = '🔊 Play Music';
     }
 });
+function toggleImage() {
+  const img = document.getElementById("myimg");
+  if (img.style.display === "none") {
+    img.style.display = "block";
+  } else {
+    img.style.display = "none";
+  }
+}
